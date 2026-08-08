@@ -1,4 +1,4 @@
-# Nemo Memory Bot
+# Telegram Pinecone Assistant
 
 ![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)
 ![Telegram](https://img.shields.io/badge/Telegram-Bot-26A5E4?logo=telegram&logoColor=white)
@@ -68,7 +68,7 @@ Pinecone index (nemo)    ← namespace __default__
 ## Project layout
 
 ```
-nemo-memory-bot/
+telegram-pinecone-assistant/
 ├── telegram_bot.py      # Bot entry point
 ├── pinecone_manager.py    # Pinecone read/write layer
 ├── EnvExample           # Environment template
@@ -101,8 +101,8 @@ Create a **standard** index with **dimension = 1536** for the default embedding 
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/nifontovoleg/nemo-memory-bot.git
-cd nemo-memory-bot
+git clone https://github.com/nifontovoleg/telegram-pinecone-assistant.git
+cd telegram-pinecone-assistant
 python -m venv venv
 # Windows
 venv\Scripts\activate
