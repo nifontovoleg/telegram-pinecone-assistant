@@ -1,0 +1,13 @@
+TELEGRAM_BOT_TOKEN=your-telegram-bot-token
+OPENAI_API_KEY=your-openai-api-key
+OPENAI_BASE_URL=https://api.openai.com/v1
+OPENAI_MODEL=gpt-4o-mini
+
+PINECONE_API_KEY=your-pinecone-api-key
+PINECONE_INDEX_NAME=nemo
+# false — обычный индекс + OpenAI embeddings; true — integrated inference в Pinecone
+PINECONE_INTEGRATED=false
+EMBEDDING_MODEL=text-embedding-3-small
+
+# Сколько воспоминаний подмешивать в контекст ответа
+MEMORY_TOP_K=8
