@@ -9,6 +9,9 @@
 Personal Telegram assistant with **long-term semantic memory**. Every user message is embedded and stored in Pinecone; future replies are grounded in relevant past messages via vector search and OpenAI chat completion.
 
 ---
+<img width="553" height="248" alt="Снимок экрана 2026-08-08 210143" src="https://github.com/user-attachments/assets/abdb3c0f-8d95-4926-855d-db6f8d687e66" />
+
+---
 
 ## What it does
 
